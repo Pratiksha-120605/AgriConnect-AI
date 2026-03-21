@@ -85,3 +85,66 @@ An AI-powered agriculture platform designed to assist farmers with crop disease 
 ---
 
 ## 📁 Project Structure
+```
+agriconnect-hub/
+│
+├── frontend/ # React frontend
+│
+├── backend/ # Flask backend
+│ ├── app.py
+│ └── utils/
+│
+├── models/ # ML models (optional)
+│
+├── dataset/ # Training data (optional)
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/agriconnect-hub.git
+cd agriconnect-hub
+```
+### 2️⃣ Backend Setup
+```
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+
+### 2️⃣ Backend Setup
+```
+cd frontend
+npm install
+npm run dev
+```
+## 🎯 Use Cases
+Smart farming assistance
+Crop disease identification
+Government scheme awareness
+Digital agriculture ecosystem
+
+## 💡 Future Improvements
+More accurate custom ML model
+Mobile app integration
+Real-time camera detection
+Weather-based suggestions
+Farmer community features
+
+## 👨‍💻 Team
+Developed during Hackathon
+Built as an end-to-end agriculture solution
+
+## ⭐ Acknowledgment
+
+This project was built during a hackathon sponsored by:
+Katalyst India
+Salesforce
+MathWorks
